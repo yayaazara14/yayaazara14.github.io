@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+
+.HOME {
+      height: 100vh;
+      width: 100%;
+      background-color:#239B56 ;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color:#145A32;
+    background-size: cover;
+    border-bottom: 1px solid rgb(18, 18, 18);
+    width: 87%;
+    z-index: 99;
+    position: fixed;
+}
+.logo {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: rgb(205, 252, 214);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: black;
+    transition: 0,5s;
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4 {
+    color: #2C3E50;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h2 {
+    color: rgb(219, 251, 196);
+    font-size: 45px;
+    margin: 20px 0 20px;
+    padding-top: -21px;
+
+}
+
+.tentang{
+    margin-top: -21px;
+}
+.about-kelas{
+    padding: 20px;
+}
+h3 {
+    color: rgb(218, 191, 191);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.image {
+    width: 26%;
+    height: 64%;
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+
+}
+.image img {
+    height: 100%;
+    width: 97%;
+    position: absolute;
+    bottom: 80px;
+    right: 18%;
+}
+span{
+    color:#b6facc ;
+    
+}
+
+.about-me {
+    height: 100vh;
+    width: 100%;
+    background-color: #145A32;
+}
+
+.about-kelas{
+    position: relative;
+    bottom: -200PX;
+}
